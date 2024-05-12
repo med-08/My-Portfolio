@@ -1,0 +1,61 @@
+.heading{
+    background-color: #E7D2CC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    font-size: 35px;
+    color: #7a5e56;
+}
+.vol {
+    background-color: #eeede7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    font-size: 25px;
+    color: #6f6d72;
+}
+.skills {
+    background-color: #eeede7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    font-size: 25px;
+    color: #6f6d72;
+}
+.achieve {
+    background-color: #eeede7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+    font-size: 25px;
+    color: #6f6d72;
+}
+.lang {
+    background-color: #eeede7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    font-size: 25px;
+    color: #6f6d72;
+}
+a {
+    color:#6f6d72 ;
+}
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #868B8E;
+    width: 100%;
+    font-size: 25px;
+    height:107px;
+    color: #eeede7;
+}
+#b {
+    color: #eeede7;
+}

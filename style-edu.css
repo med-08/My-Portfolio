@@ -1,0 +1,36 @@
+.heading{
+    background-color: #eeede7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 57px;
+    font-size: 35px;
+    color: #c98471;
+}
+.edu-details {
+    background-color: #E7D2CC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    font-size: 25px;
+    color: #868B8E;
+}
+#ed {
+    border: 1px solid #B9B7BD;
+    display: flex;
+    align-items: center;
+}
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #B9B7BD;
+    width: 100%;
+    font-size: 25px;
+    height:200px;
+    color: #4d4e4e;
+}
+a{
+    color: #4d4e4e;
+}
