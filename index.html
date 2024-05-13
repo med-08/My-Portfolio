@@ -8,7 +8,93 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <header>
+
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <!-- BACK TO TOP ARROW -->
+    <a class="smoothScroll" href="#welcome"><img id="btt" class="img-responsive" src="public/north.png"></a>
+    
+    <!-- NAV -->
+    <div id="myNav" class="overlay">
+    
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a class="smoothScroll" href="#welcome" onclick="closeNav()">Home</a>
+        <a class="smoothScroll" href="#about" onclick="closeNav()">About</a>
+        <a class="smoothScroll" href="#portfolio" onclick="closeNav()">Portfolio</a>
+      </div>
+    
+    </div>
+    
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <!-- <span id="openmenu" 
+    onclick="openNav()"><b>Menu</b></span> -->
+    <a id="openmenu" alt="resume" download><img style="max-height: 20px;" src="public/dnld.png"><b>Resume</b></a>
+    
+    <center>
+      <!-- WELCOME -->
+      <div id="welcome">
+        <h1>What a beautiful Day!</h1>
+        <h3><b>Web Developer</b></h3>
+        <a class="smoothScroll" href="#about"><img id="press" src="public/south.png"></a>
+      </div>
+    </center>
+    
+    <!-- ABOUT -->
+    <div id="about">
+      <h1>About Me</h1>
+      <center>
+        <div id="self">
+          <img class="img-responsive" src="http://vignette3.wikia.nocookie.net/pokepastatrollpasta/images/e/e7/Derpy_Charmander_Is_derpy_I_dont_think_I_ve_seen_this_gif_29ade7_4327381.gif/revision/latest?cb=20140613173519">
+        </div>
+      </center>
+      <br>
+      <p>Hi! I’m Medhavi Tripathi, and web development is my passion.<br><br> I help people build websites they love, and I absolutely adore making people smile.<br><br> When I’m not programming, you can find me drawing, or drinking a nice cup
+        of tea.
+        <br><br>If you'd like, scroll down to see some examples of my work!<br><br>Want to work together? I’d love to hear from you!</p>
+      <br><br>
+      <span id="email">
+        <!-- src="public/hello.png" -->
+        <a target="_blank" href="mailto:22f3002491@ds.study.iitm.ac.in"> 22f3002491@ds.study.iitm.ac.in</a></span>
+      <span id="portScroll">
+        <a class="smoothScroll" href="#portfolio"><svg fill="#ffffff" height="20px" width="20px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 437.744 437.744" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M405.852,100.879h-3.358c-3.859-7.12-11.399-11.967-20.051-11.967h-61.567V78.594c0-13.245-10.775-24.021-24.02-24.021 h-155.96c-13.25,0-24.03,10.775-24.03,24.021v10.318H55.301c-8.652,0-16.192,4.847-20.051,11.967h-3.358 C14.307,100.879,0,115.186,0,132.771v218.507c0,17.586,14.307,31.893,31.892,31.893h373.96c17.585,0,31.892-14.307,31.892-31.893 V132.771C437.744,115.186,423.437,100.879,405.852,100.879z M130.865,78.594c0-5.525,4.5-10.021,10.03-10.021h155.96 c5.525,0,10.02,4.495,10.02,10.021v10.318h-176.01V78.594z M46.511,111.702c0-4.847,3.943-8.79,8.79-8.79h327.141 c4.847,0,8.79,3.943,8.79,8.79v166.245c0,23.104-18.797,41.901-41.901,41.901h-82.668l4.417-25.396H166.658l4.417,25.396H88.413 c-23.104,0-41.901-18.797-41.901-41.901V111.702z M254.435,308.453l-5.358,30.808h-60.415l-5.358-30.808H254.435z M423.744,351.278 c0,9.866-8.026,17.893-17.892,17.893H31.892c-9.865,0-17.892-8.026-17.892-17.893V132.771c0-9.865,8.026-17.892,17.892-17.892h0.62 v163.068c0,30.824,25.077,55.901,55.901,55.901h85.097l3.376,19.412h83.966l3.376-19.412h85.103 c30.824,0,55.901-25.077,55.901-55.901V114.879h0.62c9.865,0,17.892,8.026,17.892,17.892V351.278z"></path> </g></svg> View My Portfolio</a></span>
+    </div>
+    
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+      <h1>Portfolio</h1>
+      <h3>Here you'll find some projects I've worked on! Click on a project to see a demo of it.</h3>
+      <br>
+      <center>
+        <div id="port" class="container">
+          <table>
+              <!-- X SideBar -->
+              <tr>
+                <a target="_blank" href="https://med-08.github.io/Twitter-Side-Bar-Clone/"><img class="img-responsive thumbnail" src="public/X.png"></a>
+              </tr>
+              <!-- UPWORK -->
+              <tr>
+                <a target="_blank" href="https://med-08.github.io/amazon-clone/"><img class="img-responsive thumbnail" src="public/amazon.png"></a>
+              </tr>
+              <!-- TRIBUTE PAGE -->
+              <tr>
+                <a target="_blank" href="https://med-08.github.io/helloglow/"><img class="img-responsive thumbnail" src="public/hello.png"></a>
+              </tr>
+          </table>
+        </div>
+      </center>
+    </div>
+
+
+
+
+    <!-- <header>
         <div class="navbar">
             <div class="nav-name">
                 <h3>Medhavi Tripathi</h3>
@@ -48,6 +134,6 @@
     <div class="copy">
         <i class="fa-regular fa-copyright" id="spec3"> Copyright 2024</i>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
 </body>
 </html>
