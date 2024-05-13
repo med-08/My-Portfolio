@@ -216,7 +216,7 @@ body {
   }
   
   #port img {
-    margin: 5px;;
+    margin: 18px;;
     max-height: 500px;
     max-width: 500px;
     opacity: 0.5;
@@ -225,7 +225,7 @@ body {
   
   #port img:hover {
     opacity: 1;
-    box-shadow: 0px 10px 50px #db6885;
+    box-shadow: 0px 10px 30px #f799b0;
     transition: opacity 0.5s, box-shadow 0.5s;
   }
   
