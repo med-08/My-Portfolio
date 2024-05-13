@@ -38,25 +38,7 @@ p{
 a{
     color: #868B8E;
 }
-.contact{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #E7D2CC;
-    width: 100%;
-    font-size: 25px;
-    height:100px;
-    color: #868B8E;
-}
-.copy{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #B9B7BD;
-    width: 100%;
-    font-size: 10px;
-    height:57px;
-    color: #4d4e4e;
+
 } */
 
 body {
@@ -66,6 +48,9 @@ body {
     background-image: linear-gradient(315deg, #972239 0%, #db6885 74%);;
   }
   
+  div {
+    margin: 5px;
+  }
   /* BACK TO TOP BUTTON*/
   
   #btt {
@@ -161,7 +146,7 @@ body {
     transition: box-shadow 0.5s, color 0.8s, background-color 0.5s;
   }
   
-  #portScroll {
+  #portScroll, .contact a {
     background-color: #972239;
     padding: 2% 2% 2% 2%;
     border-radius: 40px;
@@ -176,13 +161,13 @@ body {
   }
   
   #portScroll a,
-  #portScroll a:hover, #email a, #email a:hover {
+  #portScroll a:hover, #email a, #email a:hover, .contact a {
     color: white;
     text-decoration: none;
   }
   
   #email:hover,
-  #portScroll:hover {
+  #portScroll:hover, .contact a:hover {
     box-shadow: 5px 15px 30px #972239;
     background-color: #b95166;
     transition: box-shadow 0.5s, color 0.8s, background-color 0.5s;
@@ -207,16 +192,61 @@ body {
     color: white;
     padding: 5% 5% 5% 5%;
     width: auto;
-    height: 100vh;
+    height: 180vh;
   }
   
   #portfolio h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 15pt;
   }
+
+  /* Contact */
+
+  #contact {
+    font-family: 'Amatic SC', cursive;
+    background-color: #972239;
+    text-decoration: none;
+    color: white;
+    padding: 5% 5% 5% 5%;
+    width: auto;
+    height: 30vh;
+  }
+  .contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: #E7D2CC; */
+    width: 100%;
+    font-size: 25px;
+    height:100px;
+    color: #868B8E;
+}
+
+.contact a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.copy{
+  margin-top: 50px;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: #B9B7BD; */
+    width: 100%;
+    font-size: 10px;
+    /* height:57px; */
+    /* color: #4d4e4e; */
+  }
+
+  #contact h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15pt;
+  }
+  
   
   #port img {
-    margin: 5px;;
+    margin: 18px;;
     max-height: 500px;
     max-width: 500px;
     opacity: 0.5;
@@ -225,7 +255,7 @@ body {
   
   #port img:hover {
     opacity: 1;
-    box-shadow: 0px 10px 50px #db6885;
+    box-shadow: 0px 10px 30px #f799b0;
     transition: opacity 0.5s, box-shadow 0.5s;
   }
   
